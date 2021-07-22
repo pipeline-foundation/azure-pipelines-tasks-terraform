@@ -20,7 +20,7 @@
 		"alexkrechik.cucumberautocomplete",
 		"wholroyd.HCL"
 	],
-	"postCreateCommand": "npm install -g typescript",
+	"postCreateCommand": "npm install -g typescript && npm install",
 }
 
 // Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)

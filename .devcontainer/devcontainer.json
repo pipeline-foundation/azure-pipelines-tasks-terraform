@@ -2,8 +2,7 @@
 	"name": " Codespace",
 	"image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0.202.3-16",
 	"settings": {
-		"workbench.colorTheme": "Default Dark+",
-		"terminal.integrated.defaultProfile.linux": "pwsh"
+		"workbench.colorTheme": "Default Dark+"
 	},
 	"extensions": [
 		"eamodio.gitlens",
@@ -21,7 +20,7 @@
 		"alexkrechik.cucumberautocomplete",
 		"wholroyd.HCL"
 	],
-	"postCreateCommand": "",
+	"postCreateCommand": "npm install -g typescript",
 }
 
 // Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)
